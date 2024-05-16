@@ -1,0 +1,67 @@
+#jaan{
+    width: 150px;
+    border-radius: 50% ;
+    border:5px solid #c096a7;
+}
+body{
+    font-family: "happy monkey", cursive;
+    text-align: center;
+    background:#a2d2ff ;
+    color: #ffffff;
+}
+#party{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+    
+h1,h2,h3,h4,p{
+    text-shadow:0px 0px 2px black ;
+}
+
+
+#age,#date{
+    background:#c096a7;  ;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#date{
+margin: 0;
+}
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-bottom: 10px;
+}
+.gift-hint{
+    margin-top: 0px;
+}
+.gift-img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid white;
+    border-radius:10px;
+    background-image: url("gift-cover.jpg"); 
+    margin: 0 auto;
+    background-size: cover;
+
+}
+.gift-img:hover{
+    background-image: url("happy.gif");
+}
+#gift-img-wink:hover{
+    background-image: url("hot.gif")
+}
+#gift-img-smart:hover{
+    background-image: url("genius.gif");
+}
+#gift-img-cheers:hover{
+    background-image: url("cheers.gif");
+}
+.last{
+    height: 120px;
+    width: 200px;
+}
